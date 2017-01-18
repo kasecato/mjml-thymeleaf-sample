@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Gradle : mjml-thymeleaf.war">
+    <output-path>$PROJECT_DIR$/build/libs</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$" />
+    </properties>
+    <root id="archive" name="mjml-thymeleaf.war">
+      <element id="artifact" artifact-name="Gradle : mjml-thymeleaf.war (exploded)" />
+    </root>
+  </artifact>
+</component>

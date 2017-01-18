@@ -1,0 +1,21 @@
+apply plugin: 'java'
+apply plugin: 'war'
+apply plugin: 'idea'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.springframework:spring-webmvc:4.3.4.RELEASE'
+    compile 'org.thymeleaf:thymeleaf-spring4:3.0.3.RELEASE'
+    compile 'javax.servlet:javax.servlet-api:3.1.0'
+    compile 'ognl:ognl:3.1.12'
+    compile 'org.slf4j:jcl-over-slf4j:1.7.21'
+    compile 'ch.qos.logback:logback-classic:1.1.8'
+
+    testCompile 'junit:junit:4.11'
+}

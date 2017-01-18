@@ -1,0 +1,43 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Gradle : mjml-thymeleaf.war (exploded)">
+    <output-path>$PROJECT_DIR$/build/libs/exploded/mjml-thymeleaf.war</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$">
+        <manifest>TWFuaWZlc3QtVmVyc2lvbjogMS4wDQoNCg==</manifest>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/build/libs/exploded/mjml-thymeleaf.war/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="mjml-thymeleaf_main/web/Web Gradle : mjml-thymeleaf.war" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="mjml-thymeleaf_main" />
+          <element id="dir-copy" path="$PROJECT_DIR$/build/resources/main" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Gradle: org.springframework:spring-webmvc:4.3.4.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.thymeleaf:thymeleaf-spring4:3.0.3.RELEASE" />
+          <element id="library" level="project" name="Gradle: javax.servlet:javax.servlet-api:3.1.0" />
+          <element id="library" level="project" name="Gradle: ognl:ognl:3.1.12" />
+          <element id="library" level="project" name="Gradle: org.slf4j:jcl-over-slf4j:1.7.21" />
+          <element id="library" level="project" name="Gradle: ch.qos.logback:logback-classic:1.1.8" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-aop:4.3.4.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-beans:4.3.4.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-context:4.3.4.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-core:4.3.4.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-expression:4.3.4.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-web:4.3.4.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.thymeleaf:thymeleaf:3.0.3.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.javassist:javassist:3.20.0-GA" />
+          <element id="library" level="project" name="Gradle: ch.qos.logback:logback-core:1.1.8" />
+          <element id="library" level="project" name="Gradle: commons-logging:commons-logging:1.2" />
+          <element id="library" level="project" name="Gradle: org.attoparser:attoparser:2.0.2.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.unbescape:unbescape:1.1.4.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.slf4j:slf4j-api:1.7.21" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
